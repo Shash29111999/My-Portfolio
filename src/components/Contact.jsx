@@ -93,12 +93,13 @@ export default function Contact() {
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
-                 onChange={(e) => setMessage(e.target.value)}
+                
               Message
             </label>
             <textarea
               id="message"
               name="message"
+               onChange={(e) => setMessage(e.target.value)}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
