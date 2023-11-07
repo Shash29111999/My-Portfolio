@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form
+        {/* <form
           netlify
           onSubmit={handleSubmit}
           name="contact"
@@ -101,11 +101,12 @@ export default function Contact() {
             />
           </div>
           <button
+            disabled
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none cursor-not-allowed hover:bg-indigo-600  rounded text-lg">
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
